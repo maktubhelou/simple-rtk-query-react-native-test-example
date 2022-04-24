@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#F3F3F3",
+    }
+  }
+>
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+    style={
+      Object {
+        "backgroundColor": "#F3F3F3",
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginTop": 32,
+              "paddingHorizontal": 24,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
+            }
+          >
+            Pokemon
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "marginTop": 8,
+                },
+                Object {
+                  "color": "#444",
+                },
+              ]
+            }
+          >
+            Select your favorite 
+            <Text
+              style={
+                Object {
+                  "fontWeight": "700",
+                }
+              }
+            >
+              Pokemon 
+            </Text>
+            from the list below.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "marginTop": 32,
+              "paddingHorizontal": 24,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
+            }
+          >
+            Example
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "marginTop": 8,
+                },
+                Object {
+                  "color": "#444",
+                },
+              ]
+            }
+          >
+            <Text>
+              Loading...
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
+
+exports[`App matches snapshot 2`] = `
+Object {
+  "pokemonApi": Object {
+    "config": Object {
+      "focused": true,
+      "keepUnusedDataFor": 0,
+      "middlewareRegistered": false,
+      "online": true,
+      "reducerPath": "pokemonApi",
+      "refetchOnFocus": false,
+      "refetchOnMountOrArgChange": false,
+      "refetchOnReconnect": false,
+    },
+    "mutations": Object {},
+    "provided": Object {},
+    "queries": Object {},
+    "subscriptions": Object {},
+  },
+}
+`;

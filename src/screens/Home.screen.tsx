@@ -16,7 +16,7 @@ import { Section } from '../layout/Section';
 
 export const Home = () => {
   const isDarkMode = useColorScheme() === 'dark';
-  const { data, error, isLoading } = useGetPokemonByNameQuery('rattata');
+  const { data, error, isLoading } = useGetPokemonByNameQuery('bulbasaur');
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
