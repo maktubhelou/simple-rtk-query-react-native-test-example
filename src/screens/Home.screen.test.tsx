@@ -6,6 +6,16 @@ import { server } from '../test/server';
 import { rest } from 'msw';
 
 describe('Home', () => {
+  it('matches snapshot', async () => {
+    const component = <Home />;
+    const { findByText, toJSON } = renderWithProviders(component);
+
+    await findByText('Loading...');
+    await findByText('Bulbasaur');
+
+    expect(toJSON()).toMatchSnapshot();
+  });
+
   it('renders "Bulbasaur"', async () => {
     const component = <Home />;
     const { findByText } = renderWithProviders(component);
